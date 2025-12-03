@@ -1,0 +1,249 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.centre{
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #ffffff59;
+    padding: 25px;
+}
+
+
+
+body > div:nth-of-type(1){
+    background: linear-gradient(to top, none, black);
+}
+
+body > div:nth-of-type(2){
+    background-color: #d4dd55;
+    background-image: url("../images/il_fullxfull.5525015334_44xo.webp");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+body > div:nth-of-type(3){
+    background-color: #a572e0;
+}
+
+body > div:nth-of-type(4){
+    background-color: #6e89d4;
+}
+
+body > div:nth-of-type(5){
+    background-color: #d4dd55;
+    background-image: url("../images/R.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    background-color: #6e89d4;
+    background-color: #87c558;
+}
+
+body > div:nth-of-type(6){
+    background-color: #ce70d6;
+}
+
+body > div:nth-of-type(7){
+    background-color: #63bba0;
+}
+
+body > div:nth-of-type(8){
+    background-color: #000000;
+}
+
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+/* ////////////////////////////////////////// la divison .hero */
+
+.hero{
+    background-image: url("../images/Manga-ChainSaw-Man.webp");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.hero__barresup{
+    background-color: #ffffff7a;
+    padding: 0;
+}
+
+.hero__titre {
+    color: #8f3a3a;
+    font-size: 3rem;
+    font-family: "Playfair Display", serif;
+}
+
+.hero__sous-titre{
+    font-size: 30px;
+    background-color: black;
+    color: #a31b1bd2;
+    height: 35px;
+    width: 222px;
+    border-radius: 10px;
+}
+
+
+.hero__auteur{
+    font-size: 25px;
+    background-color: black;
+    color: #a31b1bd2;
+    height: 35px;
+    width: 290px;
+    border-radius: 10px;
+}
+
+.hero > .centre {
+        background-color: #f5f3f375;
+}
+
+.hero__menu{
+    position: fixed;
+    width: 600px;
+    top: 20px;
+    right: 20px;
+}
+
+.hero__logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.hero__bouton{
+    font-family: "Science Gothic", sans-serif;
+    display: block;
+    text-decoration: none;
+    background-color: #a31b1bd2;
+    height: 36px;
+    width: 190px;
+    border-radius: 5px;
+    font-size: 30px;
+    color: black;
+}
+
+section{
+    height: 100vh;
+}
+
+section,header,footer{
+    height: 100vh;
+}
+
+h1,h2,h3 {
+    margin: 0;
+}
+
+
+.pied{
+    padding: 0;
+}
+
+.pied__section ul{
+    text-decoration: none;
+    list-style: none;
+    margin:0;
+    padding:0;
+    font-size: 12px;
+    line-height: 23px;
+}
+
+.pied__section{
+    text-decoration: none;
+    padding: 0px;
+    list-style: none;
+    color: white;
+    line-height: 23px;
+    text-decoration: none;
+    flex: 1 0 200px;
+}
+
+.pied__section a{
+    text-decoration: none;
+    padding: 10px;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(2, 2, 2);
+    font-size: 12px;
+    line-height: 23px;
+}
+
+.pied__section1 {
+    text-decoration: none;
+    padding: 0px;
+    list-style: none;
+    color: white;
+    font-size: 12px;
+    line-height: 23px;
+}
+
+.pied__centre{
+    text-decoration: none;
+    padding: 5px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 46px;
+    font-size: 12px;
+    line-height: 23px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.pied__svg{
+    padding-left: 20px;
+}
+
+.pied__a{
+    color: rgb(0, 0, 0);
+}
+
+.pied__centre2{
+    text-decoration: none;
+    padding: 0px;
+    list-style: none;
+    color: white;
+    font-size: 12px;
+    line-height: 23px;
+    color: white;
+}
+
+.pied__icone{
+    display:flex;
+    gap: 20px;
+    flex : 2 0 400px;
+    margin:0;
+}
+
+/*.un{
+    background-color: aquamarine;
+}
+
+.deux{
+    background-color: orange;
+}
+
+.trois{
+    background-color: red;
+}
+
+.quatre{
+    background-color: purple;
+}
+
+.cinq{
+    background-color: #cc605d;
+}
